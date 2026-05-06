@@ -1,16 +1,6 @@
-"""🎯 Actividad 3: Clasificador de IMC
-1. Crea actividad3.py. Solicita al usuario su peso en kg y su estatura en metros.
-2. Calcula el Índice de Masa Corporal con la fórmula:
-IMC = peso / (estatura ** 2).
-3. Usa if / elif / else para clasificar el resultado:
-• Bajo peso (< 18.5),
-• Normal (18.5–24.9),
-• Sobrepeso (25–29.9),
-• Obesidad (>= 30).
-4. Imprime el valor del IMC y su clasificación correspondiente.
-5. Bonus: Valida que el peso y la estatura sean valores positivos antes de calcular."""
-
 # Actividad 3: Clasificador de IMC
+
+# Función para ingresar peso y estatura con validación
 def ingresar_peso():
     while True:
         try:
@@ -21,7 +11,7 @@ def ingresar_peso():
         except ValueError:
             print("Error: Ingrese un número válido.")
             
-
+# Función para ingresar estatura con validación
 def ingresar_estatura():
     while True:
         try:
