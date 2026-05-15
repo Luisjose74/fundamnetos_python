@@ -6,7 +6,7 @@ dos tuplas y muestre por pantalla su producto escalar."""
 vector1 = (1, 2, 3)
 vector2 = (-1, 0, 2)
 
-producto_escalar = vector1[0] * vector2[0] + vector1[1] * vector2[1] + vector1[2] * vector2[2]
+producto_escalar = vector1 + vector2
 
 print("El producto escalar de los vectores es:", producto_escalar)
 
@@ -14,7 +14,7 @@ print("El producto escalar de los vectores es:", producto_escalar)
 precios, 50, 75, 46, 22, 80, 65, 8, y muestre por pantalla el menor y el
 mayor de los precios."""
 
-precios = [50, 75, 46, 22, 80, 65, 8]
+precios = (50, 75, 46, 22, 80, 65, 8)
 
 mayor_precio = max(precios)
 menor_precio = min(precios)
